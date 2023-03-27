@@ -1,0 +1,168 @@
+.hasTagsView .app-main[data-v-4b14b441] {
+  min-height: calc(100vh - 96px);
+}
+
+.table-box .el-table__empty-block {
+    background: #666
+}
+
+.el-table__empty-text {
+    color: #ccc
+}
+
+.el-loading-mask {
+    background-color: #555
+}
+
+.el-loading-spinner .path {
+    stroke: #d0a0f0
+}
+
+.el-button--text {
+    color: #d0a0f0
+}
+
+.el-dialog {
+    background: #202020
+}
+
+.el-dialog__title, .el-form-item__label {
+    color: #FFF
+}
+
+.article-add-bk-text {
+    color: #CCC
+}
+
+.el-input__inner, .el-textarea__inner {
+    background-color: #333;
+    border: 1px solid #666;
+    color: #ccc
+}
+
+.el-dialog__body {
+    color: #ccc
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+    color: #888
+}
+
+.add—bk .add-bk-select .el-input__inner {
+    color: #333333
+}
+
+.el-tag, .article-container .article-add-bk-btn[data-v-1711fa42] {
+    background-color: rgba(156,92,247,.2);
+    color: #ac6cff;
+    border-color: #d0a0f0
+}
+
+.el-tag .el-icon-close {
+    color: #ac6cff
+}
+
+body {
+    background: #202020
+}
+
+.panel-group .card-panel .card-panel-text[data-v-26161d64] {
+    color: #d0a0f0
+}
+
+#app .main-container, .pagination-container[data-v-6af373ef] {
+    background: #202020
+}
+
+.app-main[data-v-4b14b441] {
+    background-color: #202020
+}
+
+.panel-group .card-panel .card-panel-num[data-v-26161d64] {
+    color: #FFF
+}
+
+.article-container .article-table[data-v-1711fa42], .article-container .table-box[data-v-1711fa42], .article-container .table-box[data-v-3ff7eaa2], .article-container[data-v-1711fa42], .article-container[data-v-3ff7eaa2], .article-container .article-table[data-v-3ff7eaa2] {
+    background: #202020
+}
+
+.article-container .article-table .all-list[data-v-1711fa42], .article-container .article-table .all-list[data-v-3ff7eaa2] {
+    color: #FFF
+}
+
+.article-container .table-box .el-table th {
+    background: #555;
+	color: #FFF;
+}
+
+.el-table tr {
+    background-color: #444
+}
+
+.article-container .title1[data-v-1711fa42] {
+    color: #FFF
+}
+
+.el-table {
+    color: #ccc
+}
+
+.article-container .table-box .el-table--striped .el-table__body tr.el-table__row--striped td, .edit-table-box .el-table--striped .el-table__body tr.el-table__row--striped td, .el-table--striped .el-table__body tr.el-table__row--striped td {
+    background: #555
+}
+
+.article-container .article-search input {
+    background: #555;
+    border-width: 0
+}
+
+.el-pagination__total, .el-pagination__jump {
+    color: #ccc
+}
+
+.mce-content-body {
+    color: #fff
+}
+
+.mce-panel {
+    background-color: #333
+}
+
+.mce-container, .mce-container *, .mce-widget, .mce-widget *, .mce-reset, .mce-menubar .mce-menubtn button span {
+    color: #ccc
+}
+
+.mce-label {
+    text-shadow: 0 1px 1px rgba(255,255,255,0)
+}
+
+.mce-content-body [data-mce-selected="inline-boundary"] {
+    background: #333366
+}
+
+.mce-menu-item.mce-disabled, .mce-menu-item.mce-disabled:hover {
+    background: #333;
+    color: #666
+}
+
+.mce-btn button {
+    background: #333
+}
+
+.mce-btn {
+    border: 1px solid #333
+}
+
+.el-table th {
+    background-color: #333
+}
+
+.article-container .article-add-bk .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap > .el-form-item__label::before, .article-container .article-add-bk .el-form-item.is-required:not(.is-no-asterisk) > .el-form-item__label::before {
+    color: #d0a0f0
+}
+
+.article-container .article-cancel-btn[data-v-1711fa42] {
+    background: #333;
+    color: #aaa;
+    border-color: #333
+}
