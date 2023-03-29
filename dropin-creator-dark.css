@@ -92,7 +92,9 @@
 }
 
 .login-container .el-input input {
-    color: #fff
+    color: #fff;
+    caret-color: #fff;
+    border-bottom: 1px solid #808080
 }
 
 .el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
@@ -239,4 +241,8 @@ a[data-v-3a1298c0] {
 .login-container .logIn-btn[data-v-3a1298c0] {
     background: #333;
     color: #888
+}
+
+#icon-eye {
+    fill: #ccc
 }
