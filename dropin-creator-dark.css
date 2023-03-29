@@ -95,6 +95,15 @@
     color: #fff
 }
 
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
+    background-color: #333;
+    color: #fff
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+    color: #d0a0f0
+}
+
 // Page
 
 body {
