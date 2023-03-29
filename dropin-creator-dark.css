@@ -83,6 +83,18 @@
     border: 0px solid transparent
 }
 
+.el-checkbox {
+    color: #808080
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label {
+    color: #ac6cff
+}
+
+.login-container .el-input input {
+    color: #fff
+}
+
 // Page
 
 body {
@@ -196,4 +208,25 @@ body {
 
 img[data-v-01ebb6ee] {
     filter: invert() hue-rotate(180deg);
+}
+
+span[data-v-b4e3e56c] {
+    color: #FFF
+}
+
+.login-container .submit-container[data-v-3a1298c0] {
+    background: #202020
+}
+
+a[data-v-3a1298c0] {
+    color: #ccc
+}
+
+.active[data-v-3a1298c0] {
+    color: #fff
+}
+
+.login-container .logIn-btn[data-v-3a1298c0] {
+    background: #333;
+    color: #888
 }
