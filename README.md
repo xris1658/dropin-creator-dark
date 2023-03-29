@@ -2,6 +2,8 @@
 
 基于网站原有样式文件修改的深色主题。
 
+主站浅色主题：[GitHub](https://github.com/xris1658/dropin-light) / [Gitee](https://gitee.com/xris1658/dropin-light)
+
 ## 用法
 1. 为浏览器安装插件 Stylish。
     - [Google Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe)
