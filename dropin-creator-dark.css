@@ -1,9 +1,13 @@
+.popper__arrow {
+    color: #333
+}
+
 .el-submenu__title, .el-menu-item, #app .sidebar-container .is-active > .el-submenu__title, #app .sidebar-container .el-submenu .el-menu-item, #app .sidebar-container .nest-menu .el-submenu > .el-submenu__title {
     background-color: #333 !important;
     color: #ccc !important;
 }
 
-#app .sidebar-container .el-submenu .el-menu-item:hover, #app .sidebar-container .nest-menu .el-submenu > .el-submenu__title:hover, #app .sidebar-container .el-submenu__title:hover, #app .sidebar-container .submenu-title-noDropdown:hover {
+#app .sidebar-container .el-submenu .el-menu-item:hover, #app .sidebar-container .nest-menu .el-submenu > .el-submenu__title:hover, #app .sidebar-container .el-submenu__title:hover, #app .sidebar-container .submenu-title-noDropdown:hover, .el-menu--vertical .el-menu-item:hover, .el-menu--vertical .nest-menu .el-submenu > .el-submenu__title:hover {
     background-color: #555 !important;
     color: #ccc !important;
 }
@@ -55,6 +59,23 @@
     color: #ccc
 }
 
+.el-table thead {
+    color: #fff
+}
+
+.el-table td, .el-table th.is-leaf {
+    border-bottom: 0px;
+    border-right: 0px
+}
+
+.el-table--border, .el-table--group {
+    border: 0px
+}
+
+.el-table--border::after, .el-table--group::after, .el-table::before {
+    background-color: transparent
+}
+
 .readonlyInput .el-input__inner, .readonlyInput .el-textarea__inner {
     background-color: #333;
     border: 1px solid #444;
@@ -70,6 +91,7 @@
 }
 
 .el-table--enable-row-hover .el-table__body tr:hover > td {
+    background: #555;
     color: #fff
 }
 
@@ -87,7 +109,24 @@
     background: #333
 }
 
-.el-dropdown-menu, .el-dropdown-menu__item--divided::before {
+.el-popper[x-placement^="bottom"] .popper__arrow {
+    color: #333;
+    border-bottom-color: transparent
+}
+
+.el-popper[x-placement^="bottom"] .popper__arrow::after {
+    border-bottom-color: #333
+}
+
+.el-menu {
+    background-color: #333 !important
+}
+
+.el-dropdown-menu__item--divided {
+    border-top: 1px solid #555
+}
+
+.el-dropdown-menu, .el-dropdown-menu__item--divided::before, .el-select-dropdown__item {
     background: #333
 }
 
@@ -272,7 +311,12 @@ body {
 }
 
 .mce-btn {
-    border: 1px solid #333
+    border: 1px solid #333;
+    background: transparent
+}
+
+.mce-i-backcolor {
+    backrground: #888 !important;
 }
 
 .article-container .article-cancel-btn[data-v-1711fa42], .article-container .article-cancel-btn1[data-v-1711fa42] {
@@ -317,4 +361,13 @@ a[data-v-3a1298c0] {
 
 .navbar[data-v-b4e3e56c] {
     height: 60px
+}
+
+.el-submenu__title .svg-icon * {
+    stroke: #ccc;
+    stroke-width: 1.5px
+}
+
+.cell span {
+    color :#aaaaff !important
 }
