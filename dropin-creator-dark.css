@@ -126,7 +126,7 @@
     border-top: 1px solid #555
 }
 
-.el-dropdown-menu, .el-dropdown-menu__item--divided::before, .el-select-dropdown__item {
+.el-dropdown-menu, .el-dropdown-menu__item--divided::before, .el-select-dropdown__item, .el-select-dropdown {
     background: #333
 }
 
@@ -134,13 +134,21 @@
     color: #fff
 }
 
-.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover, .el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
     background: #666;
+    color: #fff
+}
+
+.el-dropdown-menu, .el-dropdown-menu__item--divided::before, .el-select-dropdown__item {
     color: #fff
 }
 
 .el-dropdown-menu {
     border: 0px solid transparent
+}
+
+.add—bk .add-bk-select .el-input__inner, .add—bk .add-bk-search .el-input__inner {
+    background: #333
 }
 
 .el-checkbox {
@@ -370,4 +378,16 @@ a[data-v-3a1298c0] {
 
 .cell span {
     color :#aaaaff !important
+}
+
+.music-box {
+    background-color: #333 !important
+}
+
+.music-box .title-right .t1 {
+    color: #fff !important
+}
+
+.music-box .title-right .t2 {
+    color: #ccc !important
 }
